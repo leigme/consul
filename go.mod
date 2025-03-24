@@ -1,6 +1,7 @@
 module github.com/hashicorp/consul
 
 go 1.18
+toolchain go1.24.1
 
 replace github.com/hashicorp/consul/api => ./api
 
@@ -81,7 +82,7 @@ require (
 	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
 	google.golang.org/genproto v0.0.0-20200623002339-fbb79eadd5eb
 	google.golang.org/grpc v1.37.1
-	google.golang.org/protobuf v1.27.1
+	google.golang.org/protobuf v1.36.6
 	gopkg.in/square/go-jose.v2 v2.5.1
 	gotest.tools/v3 v3.0.3
 	k8s.io/api v0.18.2
